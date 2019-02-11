@@ -5,7 +5,7 @@ services:
     environment:
     - UPLOAD_ENABLED=True
     - UPLOAD_PUT_ALLOWED=True
-    - UPLOAD_DELETE_ALLOWED=true
+    - UPLOAD_DELETE_ALLOWED=True
     healthcheck:
       test: [ "CMD", "curl", "localhost:8000/healthcheck" ]
   unitest-nodejs:
