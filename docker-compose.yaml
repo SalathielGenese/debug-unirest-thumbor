@@ -20,5 +20,5 @@ services:
     depends_on:
       thumbor:
         condition: service_healthy
-    command: [ "yarn", "run", "nodemon", "--ext", "js", "--ignore", "node_modules", "--exec", "yarn run jasmine" ]
+    command: [ "yarn", "dev:test" ]
 
