@@ -7,7 +7,7 @@ services:
     - UPLOAD_PUT_ALLOWED=True
     - UPLOAD_DELETE_ALLOWED=True
     healthcheck:
-      test: [ "CMD", "curl", "localhost:8000/healthcheck" ]
+      test: [ "CMD", "curl", "-f", "http://localhost:8000/healthcheck" ]
   unitest-nodejs:
     build: .
     links:
