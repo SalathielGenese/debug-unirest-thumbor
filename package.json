@@ -5,9 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "jasmine": "^3.3.1",
-    "nodemon": "^1.18.10"
-  },
-  "dependencies": {
+    "nodemon": "^1.18.10",
     "unirest": "^0.5.1"
   }
 }
