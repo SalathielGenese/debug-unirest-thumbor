@@ -1,7 +1,7 @@
 version: "2.1"
 services:
   thumbor:
-    image: apsl/thumbor-nginx
+    image: apsl/thumbor
     environment:
     - UPLOAD_ENABLED=True
     - UPLOAD_PUT_ALLOWED=True
